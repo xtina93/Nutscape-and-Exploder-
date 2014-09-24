@@ -17,23 +17,17 @@
 
 		<!--TOOLBAR_START-->
     <nav>
-						<A HREF="#" TARGET="_top"><IMG SRC="ms_images/home_on.gif" WIDTH=103 HEIGHT=21 ALT="Microsoft Home" BORDER=0></A>
-						<A HREF="#" TARGET="_top"><IMG SRC="ms_images/prod.gif" WIDTH=81 HEIGHT=21 ALT="Products" BORDER=0></A>
-						<A HREF="#" target="_top"><IMG SRC="ms_images/support.gif" WIDTH=74 HEIGHT=21 ALT="Support" BORDER=0></A>
-						<A HREF="#" TARGET="_top"><IMG SRC="ms_images/shop.gif" WIDTH=55 HEIGHT=21 ALT="Shop" BORDER=0></A>
-						<A HREF="#" TARGET="_top"><IMG SRC="ms_images/write.gif" WIDTH=78 Height=21 ALT="Write Us" BORDER=0></A>
-            <A HREF="#" TARGET="_top":><IMG SRC="ms_images/msft.gif" WIDTH=91 HEIGHT=21 ALT="Microsoft Home" BORDER=0></A> 
-		</nav>	
+       <ul>
+						<li><A HREF="#" TARGET="_top"><IMG SRC="ms_images/home_on.gif" WIDTH=103 HEIGHT=21 ALT="Microsoft Home" BORDER=0></A></li>
+						<li><A HREF="#" TARGET="_top"><IMG SRC="ms_images/prod.gif" WIDTH=81 HEIGHT=21 ALT="Products" BORDER=0></A></li>
+						<li><A HREF="#" target="_top"><IMG SRC="ms_images/support.gif" WIDTH=74 HEIGHT=21 ALT="Support" BORDER=0></A></li>
+						<li><A HREF="#" TARGET="_top"><IMG SRC="ms_images/shop.gif" WIDTH=55 HEIGHT=21 ALT="Shop" BORDER=0></A></li>
+						<li><A HREF="#" TARGET="_top"><IMG SRC="ms_images/write.gif" WIDTH=78 Height=21 ALT="Write Us" BORDER=0></A></li>
+       </ul>
+            <div id="home link"><A HREF="#" TARGET="_top":><IMG SRC="ms_images/msft.gif" WIDTH=91 HEIGHT=21 ALT="Microsoft Home" BORDER=0></A> 
+  </nav>	
 		<!--TOOLBAR_END-->
-		<TABLE WIDTH=550>
-			<TR>
-				<TD ALIGN=right>
-				<BR>
-				</TD>
-				<TD>
-				<CENTER>
-					<NOBR>
-						<FORM ACTION="#" target="_top">
+						<FORM id="go-form" ACTION="#" target="_top">
 							<SELECT NAME="Target">
 								<OPTION SELECTED VALUE="/worldwide/">Select a Location <OPTION VALUE="/argentina/">Argentina
                 <OPTION VALUE="/australia/">Australia <OPTION VALUE="/belgium/">Belgium & Luxemburg
@@ -52,18 +46,10 @@
 							</SELECT>
 							<INPUT TYPE=IMAGE SRC="ms_images/gobutton2.gif" width=26 height=26 border=0>
 						</FORM>
-					</NOBR>
-				</CENTER></TD>
-				<TD WIDTH=2> &nbsp;&nbsp; </TD>
-			</TR>
-		</TABLE>
 
 		<!-- ###### defines content table ###### -->
-
-		<TABLE BORDER=0 Width=620 CELLPADDING="3" cellspacing="0" VALIGN="TOP">
-
-			<TR>
-				<TD width="110"  VALIGN="TOP" bgcolor="#FFCC00" rowspan=1><IMG SRC="ms_images/reconstructed/dove.gif" 
+    <div id="sidebar">
+		<IMG SRC="ms_images/reconstructed/dove.gif" 
          width="110" height=104 BORDER=0 ALT="" VSPACE=0><font size=2 face="Arial, Helvetica">
 					<br>
 					<BR>
@@ -93,14 +79,11 @@
 							<P>
 								<A HREF="#" target="_top"><IMG SRC="ms_images/reconstructed/rsacirated.gif" WIDTH="96" HEIGHT="31"
                   ALT="We rate with RSACi!" align="center" BORDER=0></A>
-
-								<BR>
-								<BR>
-								<BR>
+        </div> 
 				</center></FONT></TD>
 
-				<TD VALIGN=TOP width="10" rowspan=6><IMG SRC="ms_images/white.gif" ALIGN=TOP ALT=" " WIDTH=10 HEIGHT=33></TD>
-				<TD VALIGN=top ><IMG SRC="ms_images/reconstructed/Banner_tagline.gif" width=388 height=97 BORDER=0
+				<div id="content">
+        <IMG SRC="ms_images/reconstructed/Banner_tagline.gif" width=388 height=97 BORDER=0
          ALT="MICROSOFT: Where do you want to go today?" VSPACE=0>
 				<br>
 				<br>
@@ -140,17 +123,7 @@
 							<BR>
 							Get $30 in <A HREF="#" TARGET="_top">MsCash</A>- up to $180 total - to spend on future Microsoft Products.</FONT>
 					<P>
-
-				</TD>
-
-			</TR>
-
-			<TR>
-				<td VALIGN="TOP" bgcolor="#FFCC00" rowspan=4 width=110> &nbsp;
-				<BR>
-				</TD>
-
-				<TD VALIGN=TOP>
+     
 				<P><IMG SRC="ms_images/news.gif" ALIGN=TOP ALT="News for you:" WIDTH=149 HEIGHT=29 BORDER=0>
 
 				</TD>
@@ -158,19 +131,20 @@
 
 			<TR>
 
-				<TD><FONT FACE="Arial, Helvetica, sans-serif" SIZE="+1"> <B> <A HREF="" target="_top">Smallbiz</A>&nbsp;&nbsp; 
-        <A HREF="#" target="_top">Industry</A>&nbsp;&nbsp; <A HREF="#" target="_top">Web Builder</A>&nbsp;&nbsp; 
-        <A HREF="#" target="_top">Developer</A>&nbsp;&nbsp; <A HREF="#" target="_top">IT Execs</A>
-					<P>
-						<A HREF="#" target="_top">At Home</A>&nbsp;&nbsp; <A HREF="#" target="_top">Games</A>&nbsp;&nbsp; 
-      <A HREF="#" target="_top">Press</A>&nbsp;&nbsp; <A HREF="#" target="_top">Shareholder</A>&nbsp;&nbsp; <A HREF="#" target="_top">System Pros</A>
-						<BR>
-						&nbsp;&nbsp;
-					</B></FONT></TD>
-
+				<A HREF="" target="_top">Smallbiz</A>
+        <A HREF="#" target="_top">Industry</A>
+        <A HREF="#" target="_top">Web Builder</A> 
+        <A HREF="#" target="_top">Developer</A> 
+        <A HREF="#" target="_top">IT Execs</A>
+				<A HREF="#" target="_top">At Home</A>
+        <A HREF="#" target="_top">Games</A>&nbsp;&nbsp; 
+        <A HREF="#" target="_top">Press</A>
+        <A HREF="#" target="_top">Shareholder</A>
+        <A HREF="#" target="_top">System Pros</A>
+					
 			</TR>
 			<TR>
-				<TD><IMG SRC="ms_images/special.gif" ALIGN=TOP ALT="Special Features:" WIDTH=182 HEIGHT=29 BORDER=0></TD>
+			<P><IMG SRC="ms_images/special.gif" ALIGN=TOP ALT="Special Features:" WIDTH=182 HEIGHT=29 BORDER=0>
 			</TR>
 			<TR>
 
@@ -182,22 +156,9 @@
        Register for the first Latin American Internet Explorer Race. You'll have a great time, and perhaps even win a Caribbean cruise!
 					<P>
 						<BR>
-				</FONT></TD>
-			</TR>
-
-		</table>
-		<BR>
-		<BR>
-
-		<TABLE border=0 cellpadding=0 cellspacing=0>
-			<TR>
-				<TD width=133></TD>
-				<TD><!-- This is the cell to update with the ad rotator --><A HREF="#"><IMG SRC="ms_images/Pacman1.gif" 
-      ALT="Return of Arcade: Pac-man" WIDTH=454 HEIGHT=54   BORDER=0></A></TD>
-
-			</TR>
-
-		</TABLE>
+				<div id="ad-rotator">  
+		<!-- This is the cell to update with the ad rotator --><A HREF="#"><IMG SRC="ms_images/Pacman1.gif" 
+      ALT="Return of Arcade: Pac-man" WIDTH=454 HEIGHT=54   BORDER=0></A>
 		<P align=center>
 
 			<BR>
